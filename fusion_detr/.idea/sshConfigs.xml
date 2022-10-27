@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="115.145.135.137" id="1e15ddd7-d27d-405b-9f3b-7be0ba7dfc9b" port="1214" nameFormat="DESCRIPTIVE" username="vclab" />
+    </configs>
+  </component>
+</project>

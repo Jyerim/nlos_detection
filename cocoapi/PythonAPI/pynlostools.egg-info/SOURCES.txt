@@ -1,0 +1,12 @@
+setup.py
+../common/maskApi.c
+pycocotools/_mask.c
+pynlostools/__init__.py
+pynlostools/mask.py
+pynlostools/nlos.py
+pynlostools/nloseval.py
+pynlostools.egg-info/PKG-INFO
+pynlostools.egg-info/SOURCES.txt
+pynlostools.egg-info/dependency_links.txt
+pynlostools.egg-info/requires.txt
+pynlostools.egg-info/top_level.txt

@@ -1,0 +1,73 @@
+{
+    "info":{
+        "year": "int",
+        "version": "str",
+        "description": "str",
+        "contributor": "str",
+        "url": "str",
+        "data_created": "datetime"
+    },
+    "licenses":[
+        {
+            "id": "int",
+            "name": "str",
+            "url": "str"
+        }
+    ],
+    "categories":[
+        {
+            "id": "int",
+            "name": "str"
+        },
+        {
+            "id": "int",
+            "name": "str"
+        }
+    ],
+    "image_group":[
+        {
+            "id": "int",
+            "group_name": "str",
+
+            "gt_image":{
+                "name": "str",
+                "width": "int",
+                "height":"int"
+            },
+
+            "laser_image":{
+                "name": [
+                    "str", "str"
+                ],
+                "width":"int",
+                "height":"int"
+            },
+
+            "depth_image":{
+                "name": "str",
+                "width": "int",
+                "height": "int"
+            },
+
+            "position":{
+                "x": "float",
+                "y": "float",
+                "z": "float"
+            },
+
+            "license": "int",
+            "date_captured": "datetime"
+        }
+    ],
+    "annotations":[
+        {
+            "id": "int",
+            "category_id": "int",
+            "image_group_id": "int",
+            "area": "float",
+            "bbox": [
+                "x","y","w","h"
+            ]
+        }
+    ]
+}

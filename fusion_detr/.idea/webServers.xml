@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a6231077-93b5-4868-8925-e8503f10d450" name="vclab-server-5">
+        <fileTransfer accessType="SFTP" host="115.145.135.137" port="1214" sshConfigId="1e15ddd7-d27d-405b-9f3b-7be0ba7dfc9b" sshConfig="vclab@115.145.135.137:1214 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
